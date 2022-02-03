@@ -36,31 +36,30 @@ FINITE HORIZON (CLOSED FORM) SEARCH
 
 
 
-
 REINFORCEMENT LEARNING METHODS
 *********************************** 
 A brief description of the contents of these files (every file listed has both _Uniform and _Nonuniform versions for the corresponding change point distributions):
     
-- DynamicProgramming: 
-        - Calculates and saves a value table and bestAction policy. 
+- DynamicProgramming:
+	- Calculates and saves a value table and bestAction policy. 
 	- Prints compute time.
     
 - QLearning:
-        - Calculates and saves a value table and bestAction policy. 
+	- Calculates and saves a value table and bestAction policy. 
 	- Prints compute time.
         
 - Rollout:
-        - Performs rollout search w/ or w/out policy improvement for range of change points. 
+	- Performs rollout search w/ or w/out policy improvement for range of change points. 
 	- Saves the updated heuristic "policy", which is just an average of actions taken.  
 	- Prints compute time, average performance.
         
 - DQN:
-        - Trains a relatively shallow network to learn search procedure. 
+	- Trains a relatively shallow network to learn search procedure. 
 	- Saves network parameters and "policy", or average of actions taken. 
 	- Prints compute time, average performance.
         
-- MethodCompare: 
-        - Takes policies from DynamicProgramming, QLearning, calculates average performance.
+- MethodCompare:
+	- Takes policies from DynamicProgramming, QLearning, calculates average performance.
 	- Plotting of policies from all methods.
 
 - ALL POLICIES STORED IN THE "Policies" FOLDER
