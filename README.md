@@ -1,7 +1,7 @@
-# The purpose of this folder is to provide the critical framework for all of the work described in my thesis.
+## The purpose of this folder is to provide the critical framework for all of the work described in my thesis.
 
 
-# FINITE HORIZON (CLOSED FORM) SEARCH
+## FINITE HORIZON (CLOSED FORM) SEARCH
 ***********************************
 - FH_Functions.py:
 	- Functions to compute closed-form solutions, optimal fractions, cost, etc.
@@ -17,7 +17,7 @@
 
 
 
-# 2D GAUSSIAN PROCESS SEARCH
+## 2D GAUSSIAN PROCESS SEARCH
 ***********************************
 - GP_Functions.py:
 	- Functions to compute covariance kernels and predictions.
@@ -36,7 +36,7 @@
 
 
 
-# REINFORCEMENT LEARNING METHODS
+## REINFORCEMENT LEARNING METHODS
 *********************************** 
 A brief description of the contents of these files (every file listed has both _Uniform and _Nonuniform versions for the corresponding change point distributions):
     
